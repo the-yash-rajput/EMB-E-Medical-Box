@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:background="#121212"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/mm"
+
+        android:text="Team Members"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#282727"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/layout"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/layout"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/layout"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/layout"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/layout"
+            android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/layout"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/profile"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="12dp"
+            android:fontFamily="@font/arvo"
+            android:text="Rutvij Wamanse"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"></TextView>
+
+        <ImageButton
+            android:id="@+id/ig3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="5dp"
+            android:background="#282727"
+            android:scaleType="centerInside"
+            android:src="@drawable/ig"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/li3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            android:layout_marginTop="6dp"
+            android:background="#282727"
+            android:scaleType="centerInside"
+            android:src="@drawable/li"
+
+            ></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/layout"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/profile"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="12dp"
+            android:fontFamily="@font/arvo"
+            android:text="Yash Rajput"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"></TextView>
+
+        <ImageButton
+            android:id="@+id/ig6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="5dp"
+            android:background="#282727"
+            android:scaleType="centerInside"
+            android:src="@drawable/ig"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/li6"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            android:layout_marginTop="6dp"
+            android:background="#282727"
+            android:scaleType="centerInside"
+            android:src="@drawable/li"></ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout9"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/layout"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/profile"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="12dp"
+            android:fontFamily="@font/arvo"
+            android:text="Vedant Kulkarni"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"></TextView>
+
+        <ImageButton
+            android:id="@+id/ig5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:background="#282727"
+            android:scaleType="centerInside"
+            android:src="@drawable/ig"></ImageButton>
+
+        <ImageButton
+
+            android:id="@+id/li5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="6dp"
+            android:background="#282727"
+            android:scaleType="centerInside"
+            android:src="@drawable/li"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/layout"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/profile"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="12dp"
+            android:fontFamily="@font/arvo"
+            android:text="Tanmay Kale"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"></TextView>
+
+        <ImageButton
+            android:id="@+id/ig4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="5dp"
+            android:background="#282727"
+            android:scaleType="centerInside"
+            android:src="@drawable/ig"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/li4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            android:layout_marginTop="6dp"
+            android:background="#282727"
+            android:scaleType="centerInside"
+            android:src="@drawable/li"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/layout"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout12"
+        tools:layout_editor_absoluteX="25dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/profile"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/arvo"
+            android:text="Onkar Saudagar"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"></TextView>
+
+        <ImageButton
+            android:id="@+id/ig2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="5dp"
+            android:background="#282727"
+            android:scaleType="centerInside"
+            android:src="@drawable/ig"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/li2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            android:layout_marginTop="6dp"
+            android:background="#282727"
+            android:scaleType="centerInside"
+            android:src="@drawable/li"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/profile"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/arvo"
+            android:text="Manojkumar Sirvi"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"></TextView>
+
+        <ImageButton
+            android:id="@+id/ig1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:background="#282727"
+            android:scaleType="centerInside"
+            android:src="@drawable/ig"
+
+            ></ImageButton>
+
+        <ImageButton
+            android:id="@+id/li1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="2dp"
+            android:background="#282727"
+
+            android:scaleType="centerInside"
+            android:src="@drawable/li"></ImageButton>
+    </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+

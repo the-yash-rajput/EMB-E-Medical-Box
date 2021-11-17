@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="@string/menu_home"
+            />
+        <item
+            android:id="@+id/nav_address"
+            android:title="Device"
+            android:icon="@drawable/ic_bluetooth_black_24dp"/>
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Guide" />
+
+
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_person"
+                android:title="About Us" />
+        </menu>
+    </item>
+</menu>

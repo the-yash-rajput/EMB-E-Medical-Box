@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F2385F</color>
+    <color name="colorPrimaryDark">#F2385F</color>
+    <color name="colorAccent">#F2385F</color>
+
+    <!-- 1st Gradient color -->
+    <color name="colorPurple_A600">#FFFFFF</color>
+    <color name="colorPurple_900">#33CCFF</color>
+    <color name="colorPurple_800">#385CD1</color>
+    <!-- ./ 1st Gradient color -->
+    <color name="inputbackground">#FFFFFF</color>
+    </resources>

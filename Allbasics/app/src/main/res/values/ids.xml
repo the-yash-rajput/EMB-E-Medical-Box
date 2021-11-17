@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spinner1" type="id" />
+    <item name="text_home" type="id" />
+    <item name="mailani" type="id" />
+    <item name="g1" type="id" />
+</resources>
